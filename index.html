@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Contact Us</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css " rel="stylesheet">
+<style>
+    body{
+      background-image: url("LP.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+    .demo-box{
+        padding: 40px 0;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+</style>
+</head>
+<body>
+<!--NAVBAR-->
+ <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="home.html"><img src="OB.png" alt="logo" height="50px" width="50px"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Contact Us</a>
+          </li>  
+        </ul>
+            <form class="d-flex ms-auto">
+              <input  class="form-cotrol me-2" type="search" id="search" name="search" placeholder="Search">
+               <button type="submit" class="btn btn-primary" >SEARCH</button>
+            </form>
+      </div>
+
+    </div>
+</nav>
+<!---->
+
+<!--TABLE-->
+<div class="ROW1">
+    <div class="container-md demo-box" style=" float: left; width: 500px;padding: 30px; position: relative; left: 10px;">
+      <div style="padding: 10px; font-size:30px; background-color: white; margin: 20px; text-align: center;">
+        <h1 class="fs-3 fs-md-2">School Office Hours</h1>
+      </div>
+        <table class="table table-borderless table-striped table-hover" style="text-align: center;" >
+            <thead>
+                <tr class="table table-primary" >
+                    <th scope="col">Day</th>
+                    <th scope="col">Office hours</th>
+                    <th scope="col">Department</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Monday</td>
+                    <td>8am-4pm</td>
+                    <td>Registrar's Office</td>
+                </tr>
+                <tr>
+                    <td scope="row">Tuesday</td>
+                    <td>8am-4pm</td>
+                    <td>Accounting Office</td>
+                </tr>
+                <tr>
+                    <td scope="row">Wednesday</td>
+                    <td>8am-4pm</td>
+                    <td>Guidance Office</td>
+                </tr>
+                <tr>
+                    <td scope="row">Thursday</td>
+                    <td>8am-4pm</td>
+                    <td>Principal's Office</td>
+                </tr>
+                <tr>
+                    <td scope="row">Friday</td>
+                    <td>8am-3pm</td>
+                    <td>Admin's Office</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<br>
+<!--FORM-->
+  <div class="container-md demo-box" style="padding: 60px; float: right; width: 500px; ">
+    <form style="background-color: white; padding: 20px; border-radius: 20px;">
+      <h2>Contact Us</h2>
+<!--NAME-->
+        <div class="mb-3 mt-3">
+            <label>Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Full Name" name="FNM">
+        </div>
+<!--EMAIL-->
+        <div class="mb-3 mt-3">
+            <label form="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+        </div>
+<!--SUBJECT-->
+        <div class="mb-3">
+             <label>Subject</label>
+            <input type="s" class="form-control" id="s" placeholder="Enter your Subject" name="sbj">
+        </div>
+<!--MESSAGE-->
+        <div class="form-check mb-3">
+            <p style="position: relative; right: 20px;">Message</p>
+            <textarea id="mm" name="Message" rows="4" cols="50" style=" position: relative; right: 18px; width: 340px;">Type your message here</textarea>
+            <br>
+        </div>
+<!--SUBMIT-->
+        <button type="submit" class="btn btn-primary" style="width: 350px;">Submit</button>
+    </form>
+  </div>
+</div>
+<!--END_FORM-->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+</body>
+</html>
